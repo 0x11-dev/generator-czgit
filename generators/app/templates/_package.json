@@ -1,0 +1,18 @@
+{
+  "name": "<%= appname %>",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "version": "0.0.1",
+  "author": "osx team",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "standard-version": "^4.3.0",
+    "commitizen": "^2.9.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
